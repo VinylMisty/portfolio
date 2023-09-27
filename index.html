@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Misty Orpin: Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+        </script>
+    <script type="text/javascript" src="script.js" defer></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/9850a15c22.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-wrapper">
+            <div class="logo">
+                <a href="#home">
+                    <img src="images/logo_1.png" onmouseover="this.src='images/logo_3.png';"
+                        onmouseout="this.src='images/logo_1.png';" width="150px" height="auto" id="logo-1"
+                        alt="Logo image"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#bio">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Menu Icon -->
+    <div class="menuIcon">
+        <span class="icon icon-bars"></span>
+        <span class="icon icon-bars overlay"></span>
+    </div>
+
+
+    <div class="overlay-menu">
+        <ul id="menu">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#bio">About</a></li>
+        </ul>
+    </div>
+
+
+    <!-- Section 1-->
+    <main>
+        <div class="intro-wrapper" id="intro">
+            <div class="text-intro">
+                <h1>Hello!</h1>
+                <div class="spacer"></div>
+                <h2>I'm Misty Orpin, a problem solver based in Northwest Arkansas.</h2>
+            </div>
+            <div class="img-intro">
+                <img src="images/Untitled design.png">
+            </div>
+        </div>
+
+        <div class="about-wrapper">
+            <div class="about-text">
+                <div class="spacer"></div>
+                <h4>Who I am</h4>
+                <div class="spacer"></div>
+                <p>I'm a budding software developer focused on gaining and giving <span
+                        style="color:#921636; font-weight:bold;" id="imageSmall"
+                        onmouseover="showImage('imageSmall','images/insight-50.png')"
+                        onmouseout="hideImage('imageSmall')" onclick="tellToHover()">insight.</span> I have almost two
+                    decades of
+                    experience storytelling about data and helping people engage with data through tools.
+                </p>
+                <div class=" spacer">
+                </div>
+
+                <h4>Where I live</h4>
+                <div class="spacer"></div>
+                <p>I live in gorgeous Northwest Arkansas. You heard Arkansas and immediately tuned out, right? Stay with
+                    me. It's actually really awesome here in the Northwest corner of the state. We're blessed with the
+                    Ozark Mountains, first-class arts and cultural amenities, and one of the best cycling cultures in
+                    the country. Really.</p>
+                <br>
+                <p>I could go on and on about our awesomeness, but I'll just send you <a href="https://findingnwa.com/"
+                        target="_blank">here</a> to learn more
+                    instead.</p>
+                <div class="spacer"></div>
+            </div>
+        </div>
+
+        <div class="projects-wrapper" id="projects">
+            <div class="projects-text">
+                <h3> Projects</h3>
+            </div>
+        </div>
+        <div class="box-wrapper">
+            <div class="box-1">
+                <i class="fa-solid fa-virus-covid fa-4x" style="color: #fef7ec;" class="icon"></i>
+                <div class="spacer"></div>
+                <h5>Arkansas Covid</h5>
+                <br>
+                <p>Created a data platform to track Covid cases in Arkansas.</p>
+
+            </div>
+            <div class="box-2">
+                <i class="fa-solid fa-newspaper fa-5x" style="color: #fef7ec;"></i>
+                <div class="spacer"></div>
+                <h5>Journalism</h5>
+                <br>
+                <p>Spent a decade using data-first practices to share information.</p>
+            </div>
+            <div class="box-3">
+                <i class="fa-solid fa-tree-city fa-5x" style="color: #fef7ec;"></i>
+                <div class="spacer"></div>
+                <h5>economic development</h5>
+                <br>
+                <p>Worked in various nonprofits to redevelop and energize Arkansas.</p>
+            </div>
+            <div class="spacer"></div>
+
+        </div>
+
+        <div class="bio-wrapper" id="bio">
+            <div class="spacer"></div>
+            <div class="bio-text">
+                <div class="spacer"></div>
+                <h3>About Misty</h3>
+                <div class="spacer"></div>
+
+                <p> When I was 18 years old, I started working as a reporter for my small-town newspaper. This was
+                    around the year 2000, when journalism was about to experience a major shake-up.</p><br>
+                <p>
+
+                    For the next decade, I worked to tell data-driven stories incorporating the new methods that were
+                    becoming available - social media, websites, email.</p><br>
+                <p>
+                    <span style="color: #d69142; font-weight:bold;">But journalism wasn't moving fast enough for
+                        me.</span> I jumped into
+                    nonprofit work focused on community
+                    development, from building bike trails to revitalizing downtowns.
+                </p><br>
+                <p>
+                    When Covid hit, the lack of transparency and data availability in my state led me down a new path. I
+                    started a project called Arkansas Covid that
+                    made our state's infection data and trends available
+                    quickly through social media and online. I focused on visualization and interactivity with a heavy
+                    use of Tableau.</p><br>
+
+                <p> I eventually turned the project over to the University of Arkansas.</p><br>
+                <p>
+                    Since that time, I've done community and political work, <span
+                        style="color:#d69142; font-weight: bold">a heavy focus on data and
+                        storytelling.</span> I have built multiple websites and cobbled together various data
+                    solutions along the way. </p><br>
+                <p>I'm excited to take my skills to the next level and begin building and/or
+                    better tailoring the tools that can best help people understand and interact with the complicated
+                    world around us.</p>
+                <div class="spacer"></div>
+
+            </div>
+        </div>
+
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Let's Connect</h3>
+                <form id="form" class="top">
+                    <input id="name" type="text" placeholder="NAME">
+                    <input id="email" type="text" placeholder="EMAIL">
+                    <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                    <input id="submit" type="submit" value="CONNECT">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <footer>
+            <p>️&copy; Misty Orpin 2023</p>
+        </footer>
+    </footer>
+</body>
