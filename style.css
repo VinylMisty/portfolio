@@ -38,17 +38,13 @@ a {
 
 .intro-wrapper {
     background-image: url("images/red_fortune.png");
-    display: grid;
-    grid-template-columns: 500px 300px;
-    grid-template-rows: auto;
-    gap: 20px;
-    justify-items: center;
-    justify-content: center;
-    align-items: stretch;
-    height: 500px;
-    align-content: center;
+    display: flex;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: space-between;
+    flex-wrap: wrap;
 }
 
 .text-intro h1 {
@@ -73,23 +69,24 @@ a {
     padding: 50px 50px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    display: inline-block;
-    text-align: left;
-    position: relative;
-    bottom: 5px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 .img-intro img {
-    height: auto;
-    width: 100%;
+    max-width: 400px;
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    margin: 20px;
 }
 
+/* About section */
 .about-wrapper {
-    grid-column: 1 / span 6;
-    display: grid;
     background-color: #fef7ec;
 }
 
@@ -115,12 +112,9 @@ a {
     text-underline-offset: 4px;
 }
 
+/*Projects section */
 .projects-wrapper {
     background-color: #d69a42;
-    color: #fef7ec;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    text-align: center;
     padding: 50px;
 }
 
@@ -129,15 +123,15 @@ a {
     color: #fef7ec;
     font-size: 30px;
     text-align: center;
-    padding: 25px;
+    margin-bottom: 30px;
 }
 
 .box-wrapper {
     background-color: #d69a42;
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 h5 {
@@ -153,7 +147,9 @@ h5 {
     padding: 30px 20px;
     color: #fef7ec;
     font-weight: 500;
-    grid-column: 1 / span 2;
+    max-width: 300px;
+    margin: 20px;
+
 }
 
 .box-2 {
@@ -163,7 +159,9 @@ h5 {
     padding: 20px;
     color: #fef7ec;
     font-weight: 500;
-    grid-colum: 3 / span 2;
+    max-width: 300px;
+    margin: 20px;
+
 }
 
 .box-3 {
@@ -173,9 +171,12 @@ h5 {
     padding: 20px;
     color: #fef7ec;
     font-weight: 500;
-    grid-column: 5 / span 2;
+    max-width: 300px;
+    margin: 20px;
+
 }
 
+/* Bio section */
 .bio-wrapper {
     background-image: url("images/yes_no.png");
     background-color: #fef7ec;
@@ -205,6 +206,7 @@ h5 {
     line-height: 1.5em;
 }
 
+/* Contact section */
 .contact-wrapper {
     background-color: #fef7ec;
     height: 500px;
