@@ -214,9 +214,7 @@ h5 {
 /* Contact section */
 .contact-wrapper {
     background-color: #fef7ec;
-    height: 500px;
-    padding: 100px;
-    margin-bottom: 20px;
+    padding: 50px;
 }
 
 .contact-form h3 {
@@ -259,6 +257,7 @@ input[type=submit] {
     padding: 12px 20px;
     border-radius: 4px;
     border: 1px solid #fef7ec;
+    background-color: #fef7ec;
     float: right;
 }
 
@@ -267,7 +266,6 @@ input[type=submit] {
     padding: 20px;
     background-color: #921636;
     margin-bottom: 50px;
-
 }
 
 .col-25 {
@@ -415,24 +413,6 @@ footer {
 
 }
 
-@media(max-width: 400px) {
-    .intro-wrapper {
-        flex-direction: column;
-    }
-}
-
-/*Mobile styles */
-@media(max-width: 768px) {
-    .nav-wrapper {
-        width: 90%;
-    }
-}
-
-@media(max-width: 638px) {
-    .nav-wrapper {
-        width: 100%;
-    }
-}
 
 .logo {
     float: left;
