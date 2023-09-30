@@ -34,7 +34,7 @@ function showImage(elemId, imgSrc) {
     const popImage = new Image();
     popImage.src = imgSrc;
     popImage.style.position = "absolute";
-    popImage.style.top = "735px";
+    popImage.style.top = "970px";
     popImage.style.zIndex = "2";
     elem.appendChild(popImage);
 }
