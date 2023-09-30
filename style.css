@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+[id] {
+    scroll-margin-top: 150px;
+}
+
 #navbar {
     position: fixed;
     top: 0;
