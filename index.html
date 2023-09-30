@@ -168,12 +168,38 @@
         <div class="contact-wrapper">
             <div class="contact-form">
                 <h3>Let's Connect</h3>
-                <form id="form" class="top">
-                    <input id="name" type="text" placeholder="NAME">
-                    <input id="email" type="text" placeholder="EMAIL">
-                    <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-                    <input id="submit" type="submit" value="CONNECT">
-                </form>
+                <div class="form-wrapper">
+                    <form id="form" class="top" action="action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input id="name" type="text" name="name" placeholder="Hi! What's your name?">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="email" name="email" placeholder="What's your email?">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="message">Message</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="message" name="message" type="text"
+                                    placeholder="What's your message?"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" id="submit" value="Connect">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
